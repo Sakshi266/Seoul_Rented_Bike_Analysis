@@ -92,7 +92,7 @@ Suggested station rebalancing windows
 Hours needing higher availability/staffing
 
 Weather-aware demand predictions (if modeled)
-## 🔄 Data Cleaning & Power Query Steps (Suggested)
+## 🔄 Data Cleaning & Power Query Steps
 
 Parse date/time into Date, Hour, DayOfWeek, Month, Year
 
