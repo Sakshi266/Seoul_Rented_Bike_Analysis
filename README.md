@@ -42,5 +42,55 @@ Power BI Desktop (data modeling, Power Query, DAX, visuals)
 Optional: Python/R (for preprocessing or advanced stats before import)
 
 Data source: CSV / Excel / Database
+## 🚀 Key Deliverables
+
+Power BI .pbix dashboard with interactive visuals
+
+Cleaned dataset or Power Query steps saved in .pbix
+
+README + folder structure for reproducibility
+## 📊 Dashboard Pages & Visuals
+
+Overview (Landing)
+
+KPI cards: Total rides, Avg duration, Peak hour, Registered vs Casual ratio
+
+Time-series chart: Daily/Monthly rides
+
+Temporal Analysis
+
+Hourly heatmap (hour vs day of week)
+
+Monthly seasonality chart
+
+Trend lines with slicers for year/user type
+
+Spatial / Station Analysis
+
+Top start and end stations (bar charts)
+
+Station demand table with % change, capacity notes
+
+If coordinates available — map visual (bubble size by rides)
+
+Weather & External Factors
+
+Rides vs Temperature / Rain / Humidity scatter charts
+
+Holiday vs Non-holiday comparison
+
+User Behavior
+
+Trip duration distribution (histogram)
+
+Registered vs Casual comparison (charts & cross-filtering)
+
+Recommendations / Actionable Insights
+
+Suggested station rebalancing windows
+
+Hours needing higher availability/staffing
+
+Weather-aware demand predictions (if modeled)
 
 
