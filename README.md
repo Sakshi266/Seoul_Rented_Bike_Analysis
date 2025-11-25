@@ -103,5 +103,32 @@ Fill or drop missing station names / IDs; standardize station names
 Flag holidays and weekend days (join with calendar table)
 
 Merge weather data on date/hour (if separate)
+## ✅ Insights You Can Expect
+
+Peak usage hours and weekdays for rebalancing and staffing.
+
+Stations with persistent shortages or surpluses.
+
+Clear correlation (or lack thereof) between weather and ridership.
+
+Differences in patterns between registered and casual users.
+
+Suggestions for targeted marketing or pricing during low-demand windows.
+## 📌 How to Run / Reproduce
+
+Download dataset into /data (rename to same filename used in Power BI).
+
+Open pbix/seoul_bike_analysis.pbix in Power BI Desktop.
+
+If data source path changed: Edit Data Source in Power Query and Refresh.
+
+Explore visuals and use slicers (date range, user type, station).
+## ✨ Tips & Extensions
+
+Add a simple demand-forecasting model (Power BI ML visuals or precompute with Python).
+
+Use clustering to group similar stations (K-means in Python, imported to Power BI).
+
+Build alerts for low-availability hours using Power BI subscriptions or Power Automate.
 
 
