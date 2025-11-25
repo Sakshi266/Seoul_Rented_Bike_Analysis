@@ -92,5 +92,16 @@ Suggested station rebalancing windows
 Hours needing higher availability/staffing
 
 Weather-aware demand predictions (if modeled)
+## 🔄 Data Cleaning & Power Query Steps (Suggested)
+
+Parse date/time into Date, Hour, DayOfWeek, Month, Year
+
+Convert duration to minutes and create duration_category (short/medium/long)
+
+Fill or drop missing station names / IDs; standardize station names
+
+Flag holidays and weekend days (join with calendar table)
+
+Merge weather data on date/hour (if separate)
 
 
